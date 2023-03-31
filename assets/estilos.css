@@ -1,0 +1,76 @@
+body {
+    background-image: url('/assets/GCflow_ninja_turtles_drinking_wine_309743ef-7d00-4861-98a6-c2e7c5478a00.png');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  #game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+#game {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #row1,
+  #row2,
+  #row3 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #cell1,
+  #cell2,
+  #cell3,
+  #cell4,
+  #cell5,
+  #cell6,
+  #cell7,
+  #cell8,
+  #cell9 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    
+  padding: 10px;
+  }
+  .cell:hover {
+    box-shadow: 2px 2px 5px gray;
+  }
+  .cell:hover {
+    box-shadow: 2px 2px 5px gray;
+  }
+  
+  
+  #game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #game div {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #game div div {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border: 2px solid #000;
+    font-size: 48px;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+  }
+  
+  #game div div:hover {
+    background-color: #eee;
+  }
+  
